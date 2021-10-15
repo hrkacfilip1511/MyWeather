@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="weather.png" />
+        <title>Vrijeme</title>
+        <script src="https://kit.fontawesome.com/aae6ccf1a0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="myWeather.css">
+    </head>
+    <body>
+        <div class="vrem-zona">
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <h2 class="city-name">Grad</h2>
+            </div>
+            <div class="temperature">
+                <i class="fas fa-thermometer-three-quarters"></i>
+                <h3 class="temp">Temperatura</h3>
+                <span>C</span>
+            </div>
+            <div class="date-time">
+                <i class="fas fa-calendar-day"></i>   
+                <p class="datetime">Datum</p>
+            </div>
+            <div class="zracenje">
+                <span>UV: </span>
+                <p class="uv-index">UV</p>
+            </div>
+            <div class="brzina-vjetra">
+                <i class="fas fa-wind">:</i>
+                <p class="wind-speed">Brzina vjetra</p>
+                <p>m/s</p>
+            </div>
+            <div class="stanje">
+                <h2 class="desc"><span class="trn">Opis vremena</span></h2>
+                <p class="iconica">Icon</p>
+            </div>    
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="myWeather.js"></script>
+    </body>
+</html>

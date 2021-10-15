@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+}
+.fa-map-marker-alt {
+  padding-right: 15px;
+  font-size: 23px;
+}
+.vrem-zona {
+  font-family: sans-serif;
+}
+.fa-thermometer-three-quarters {
+  font-size: 27px;
+  padding-right: 15px;
+}
+.fa-calendar-day {
+  padding-right: 6px;
+}
+.fa-wind {
+  font-size: 17px;
+}
+.temperature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.temp {
+  font-size: 22px;
+  padding-right: 5px;
+}
+.temperature span {
+  font-size: 20px;
+}
+.desc {
+  justify-content: space-around;
+  display: flex;
+}
+.date-time {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.datetime {
+  padding-left: 5px;
+}
+.uv-index {
+  padding-left: 5px;
+}
+.zracenje {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.brzina-vjetra {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+}
+.wind-speed {
+  padding-left: 5px;
+}
